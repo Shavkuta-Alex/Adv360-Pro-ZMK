@@ -28,19 +28,11 @@
         Dvorak {
             display-name = "Base";
             bindings = <
-<<<<<<< Updated upstream
-&morph_grave    &morph_1   &morph_2   &morph_3  &morph_4   &morph_5  &tog 1                                                                  &trans     &morph_6  &morph_7  &morph_8  &morph_9  &morph_0  &morph_lbkt
-&kp TAB         &kp SQT    &kp COMMA  &kp DOT   &kp P      &kp Y     &none                                                                   &none      &kp F     &kp G     &kp C     &kp R     &kp L     &kp FSLH
-&kp C_MENU_ESC  &kp A      &kp O      &kp E     &kp U      &kp I     &none     &kp LEFT_COMMAND  &kp LEFT_ALT      &kp LGUI       &kp RCTRL  &none      &kp D     &kp H     &kp T     &kp N     &kp S     &kp MINUS
-&kp LSHFT       &kp SEMI   &kp Q      &kp J     &kp K      &kp X                                 &kp K_PASTE       &kp C_AC_REDO                        &kp B     &kp M     &kp W     &kp V     &kp Z     &kp RSHFT
-&mo 2           &kp GRAVE  &kp GRAVE  &kp LEFT  &kp RIGHT            &kp BSPC  &kp ESC           &kp K_COPY        &kp C_AC_UNDO  &kp ENTER  &kp SPACE            &kp UP    &kp DOWN  &kp LBKT  &kp RBKT  &mo 2
-=======
 &morph_ppdt    &morph_1   &morph_2   &morph_3  &morph_4   &morph_5  &tog 1                                                                &trans     &morph_6  &morph_7  &morph_8   &morph_9  &morph_0  &morph_lbkt
 &kp TAB         &kp SQT    &kp COMMA  &kp DOT   &kp P      &kp Y   &none                                                                   &none      &kp F   &kp G   &kp C      &kp R     &kp L     &morph_bahs
 &kp C_MENU_ESC  &kp A      &kp O      &kp E     &kp U      &kp I   &none     &kp LEFT_COMMAND  &kp LEFT_ALT      &kp LGUI       &kp RCTRL  &none      &kp D   &kp H   &kp T      &kp N     &kp S     &kp MINUS
 &kp LSHFT       &kp SEMI   &kp Q      &kp J     &kp K      &kp X                               &kp K_PASTE       &kp C_AC_REDO                        &kp B   &kp M   &kp W      &kp V     &kp Z     &kp RSHFT
 &mo 3           &morph_dltl  &kp GRAVE  &kp LEFT  &kp RIGHT          &kp BSPC  &kp ESC           &kp K_COPY        &kp C_AC_UNDO  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &morph_fsqm  &morph_atca  &mo 3
->>>>>>> Stashed changes
             >;
         };
 
