@@ -2,13 +2,6 @@
 // Base: $ + [ { ( & = ) } ] * ! # 
 // Shift: ~ 1 2 3 4 5 6 7 8 9 0 % ^
 
-morph_grave: morph_grave {
-    compatible = "zmk,behavior-mod-morph";
-    #binding-cells = <0>;
-    bindings = <&kp DLLR>, <&kp TILDE>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-};
-
 morph_1: morph_1 {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
@@ -90,5 +83,40 @@ morph_rbkt: morph_rbkt {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     bindings = <&kp HASH>, <&kp CARET>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+morph_dltl: morph_dltl {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp DOLLAR>, <&kp TILDE>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+morph_bahs: morph_bahs {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp BACKSLASH>, <&kp HASH>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+morph_atca: morph_atca {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp AT>, <&kp CARET>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+morph_fsqm: morph_fsqm {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp SLASH>, <&kp QUESTION>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+};
+
+morph_ppdt: morph_ppdt {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    bindings = <&kp PIPE>, <&kp DOT>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
